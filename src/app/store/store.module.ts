@@ -18,4 +18,4 @@ import { RouterModule } from '@angular/router';
   ],
   exports: [StoreComponent, CartDetailComponent, CheckoutComponent],
 })
-export class StoreModule { }
+export class StoreModule {}
