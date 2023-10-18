@@ -23,6 +23,8 @@ export class StaticDataSource {
     new Product(15, 'Sleek Gadget', 'Category 3', 'Description for Sleek Gadget', 850),
 ];
 
+  // Reactive Programing Rx
+  // Rxjs
   
   getProducts(): Observable<Product[]> {
     return from([this.products]);

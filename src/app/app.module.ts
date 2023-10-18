@@ -11,7 +11,7 @@ import { CheckoutComponent } from './store/checkout.component';
 @NgModule({
   declarations: [
     AppComponent
-  ],
+  ],  
   imports: [
     BrowserModule, StoreModule,
     RouterModule.forRoot([
